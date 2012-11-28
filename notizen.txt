@@ -1,0 +1,32 @@
+Eine Website für alle Geräte
+
+Media Queries erlauben unterschiedliche Layouts je nach verfügbarem Platz 
+im Browserfenster 
+und ermöglichen damit Responsive Webdesign.
+Zuerst muss überlegt werden, für welche Geräte/Auflösungen optimiert werden
+ soll.
+
+
+--- Für welche Auflösungen soll optimiert werden? ---
+
+- Standard: iPhone, iPad, Monitor
+
+
+--- Breakpoints ---
+
+Soll das Layout sich flüssig (Prozentwerte) oder anhand fester Breakpoints 
+(Pixelwerte) verändern?
+
+
+--- Mobile First / Desktop First ---
+
+Art der Umsetzung. Bei Mobile First wird zuerst die Mobile Version der
+ Seite umgesetzt und bei Desktop die große Version.
+Wir arbeiten nach Mobile First um kein unnötig hohes Datenvolumen zu 
+erzeugen.
+Zum Beispiel: gross.jpg soll bei der mobilen Version mit klein.jpg 
+überschrieben werden = Es werden beide Bilder geladen.
+
+
+
+
